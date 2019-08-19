@@ -16,6 +16,7 @@ This is an Arduino-compatible board running a dual-core 240MHz CPU with 802.11 b
 
 ## Example Projects
 
+* [LED Blink](Examples/LED_Blink)
 * [RepeatTimer Example](https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/Timer/RepeatTimer/RepeatTimer.ino)
 * [Int Enable/Disable](https://www.esp32.com/viewtopic.php?t=2288)
 
