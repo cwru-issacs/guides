@@ -28,5 +28,5 @@ This repo contains many IoT related project guides, tutorials, and examples to h
 
 ### ESP32
 
-* [Blink an LED](BoardGuides/ESP32/Examples/LED_Blink/README.md)
+* [Blink an LED](BoardGuides/ESP32/Examples/LED_Blink)
 
