@@ -9,11 +9,11 @@ The following table provides a quick reference to help you decide which of these
 
 | Board Family     | IDE Support | Programming Language | Operating System |
 |------------------|:-----------:|:--------------------:|:----:|
-| Arduino          | Arduino IDE | C/C++ | None (Super Loop) |
+| [Arduino](Arduino/README.md)   | Arduino IDE | C/C++ | None (Super Loop) |
 | Adafruit Feather | Arduino IDE | C/C++ | None (Super Loop) |
 | Adafruit Trinket | Arduino IDE, CircuitPython | C/C++, Python | None (Super Loop), MicroPython |
 | Teensy           | Arduino IDE | C/C++ | None (Super Loop) |
-| ESP32            | Arduino IDE | C/C++ | FreeRTOS |
+| [ESP32](ESP32/README.md)       | Arduino IDE | C/C++ | FreeRTOS |
 | Raspberry Pi     | Various  | C/C++, Python, Others | Raspian (Linux) |
 
 
@@ -45,18 +45,16 @@ Before deciding on a sensor board, pick which development board you'll be using 
 
 ## Arduino Uno
 
-![Arduino Uno Rev3](images/arduino_uno_rev3.jpg)
+[**Additional Information**](Arduino/README.md)
 
-[](https://store.arduino.cc/usa/arduino-uno-rev3)
-
-Many starter kits exist that have an Arduino Uno board with a set of
+[![Arduino Uno Rev3](Arduino/images/arduino_uno_rev3.jpg)](Arduino/README.md)
 
 
 ## Arduino Mega
 
-![Arduino Mega](images/arduino_mega_rev3.jpg)
+[**Additional Information**](Arduino/README.md)
 
-* [ATmega2560 Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf)
+[![Arduino Mega](Arduino/images/arduino_mega_rev3.jpg)](Arduino/README.md)
 
 
 ## Adafruit Trinket
@@ -99,6 +97,8 @@ The ESP32
 
 The [Teensy](https://www.pjrc.com/teensy/) ....
 
+**Teensy 3.6**
+
 ![Teensy 3.6](images/teensy36.jpg)
 
 * [Teensy 3.6](https://www.pjrc.com/store/teensy36.html)
@@ -106,6 +106,14 @@ The [Teensy](https://www.pjrc.com/teensy/) ....
 
 ## Raspberry Pi
 
-![](images/raspberry_pi_zero_w.jpg)
+**Raspberry Pi Zero/ZeroW**
+
+![Raspberry Pi ZeroW](images/raspberry_pi_zero_w.jpg)
+
+**Raspberry Pi 3B/3B+**
+
+
+**Raspberry Pi 4**
+
 
 
