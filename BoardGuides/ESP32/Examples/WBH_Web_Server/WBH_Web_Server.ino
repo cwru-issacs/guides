@@ -37,14 +37,16 @@ void setup(void) {
   digitalWrite(led, 0);
 
   // Print Connected Message (with IP Address) to Serial Monitor
-  Serial.print("Connected to ");
+  Serial.print(F("Connected to "));
   Serial.println(ssid);
   Serial.print("IP address: ");
   Serial.println(WiFi.localIP());
 
   // Register MDNS name
   if (MDNS.begin(host_name)) {
-    Serial.println("MDNS responder started");
+    Serial.print(F("MDNS responder started with Hostname: "));
+    Serial.print(host_name);
+    Serial.println(F(".local"));
   }
 
   // Setup Callback Functions for Web URLs
@@ -72,7 +74,7 @@ void loop(void) {
 void handleRoot() {
   static unsigned long pageloads = 0;
   digitalWrite(led, 1);
-  String message = "<!DOCTYPE html>\n"
+  String message = F("<!DOCTYPE html>\n"
                    "<html>"
                    "<head>"
                    "<meta charset=\"UTF-8\">"
@@ -95,7 +97,7 @@ void handleRoot() {
                    "<img src=\"https://cwru-issacs.github.io/wbh19/images/WBH_small.png\" alt=\"Welcome Back Hack 2019\">"
                    "</center>"
                    "</body>"
-                   "</html>\n";
+                   "</html>\n");
   message.replace("{0}", String(++pageloads));
   server.send(200, "text/html", message);
   digitalWrite(led, 0);
@@ -120,7 +122,7 @@ void handleNotFound() {
 
 void handleWbhCss() {
   digitalWrite(led, 1);
-  String message = ".topheader {\n"
+  String message = F(".topheader {\n"
                    "  background-color: #308DE5;\n"
                    "  color: #DCE8F4;\n"
                    "  padding: 10px;\n"
@@ -132,7 +134,7 @@ void handleWbhCss() {
                    ".topleft{\n"
                    "  float: center;\n"
                    "  display: inline-block;\n"
-                   "}\n";
+                   "}\n");
   server.send(200, "text/css", message);
   digitalWrite(led, 0);
 }
