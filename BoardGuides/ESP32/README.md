@@ -19,7 +19,7 @@ This is an Arduino-compatible board running a dual-core 240MHz CPU with 802.11 b
 ## Example Projects
 
 * [LED Blink](Examples/LED_Blink)
-* HTTP Server
+* [WBH Web Server](Examples/WBH_Web_Server)
 * MQTT Demo
 * REST API Control
 * RGB LED Strip
