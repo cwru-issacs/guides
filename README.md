@@ -24,6 +24,7 @@ These tutorial links will help solve common problems as you are getting started.
 	* [Setup ESP32 Board Support](https://circuitdigest.com/microcontroller-projects/programming-esp32-with-arduino-ide)
 	* [Setup Teensy Board Support](https://www.pjrc.com/teensy/td_download.html)
 	* [Setup Adafruit Board Support](https://learn.adafruit.com/adafruit-arduino-ide-setup/overview)
+* [A Beginners Guide to Arduino](https://www.instructables.com/id/A-Beginners-Guide-to-Arduino/)
 * [Getting Started with Teensy](https://learn.sparkfun.com/tutorials/getting-started-with-the-teensy/all)
 * [Getting Started with CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython/overview)
 * [Getting Started with Python](https://www.python.org/about/gettingstarted/)
